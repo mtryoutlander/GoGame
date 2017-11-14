@@ -62,7 +62,7 @@ public class GameBoard {
             }
         }
 
-        // updateScore(playerTurn,tempScore);
+        updateScore(playerTurn,tempScore);
         tempScore=0;
         //updateUI();
         playerTurn = !playerTurn;
